@@ -17,7 +17,7 @@ public class Smoke {
 	public void open_firfox_and_start_application() throws Throwable {
  	System.setProperty("webdriver.chrome.driver","C:\\Windows\\Seleniumdrivers\\chromedriver.exe");
 		driver= new ChromeDriver();
-	     driver.get("http://www.facebook.com");
+	    driver.get("http://www.facebook.com");
 		driver.manage().window().maximize();
 		
 	    
